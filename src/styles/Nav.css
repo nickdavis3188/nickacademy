@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media(max-width:932px){
+    header .brand,
+    header nav li{
+        float:none;
+        text-align:center;
+    }
+    .active2{
+        color: #e8491d!important;
+    }
+    .small{
+        background-color: #35424a;
+        color: #cccccc;
+        padding-top: 30px;
+        min-height: 70px;
+        width:100%;
+        border-bottom: #e8491d 4px solid;
+        padding-bottom: 20px;
+    }
+    .brand h1 span {
+        color: #e8491d;
+    }
+    .small nav{
+        margin: auto;
+    }
+    .large{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+    .small nav ul li a{
+        color: #cccccc;
+        text-decoration:none;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .small nav ul{
+        margin:auto;
+        padding:6px 0 0 0;
+       text-align: center;
+    }
+    .small nav ul li{
+        display: inline;
+        padding: 0 10px 0 10px;
+       
+    }
+    
+    .brand h1{
+        font-size:30px;
+        font-weight: bold;
+    }
+}
+
+
+/* large */
+@media(min-width:932px){
+    .large{
+        background-color: #35424a;
+        color: #ffffff;
+        padding-top: 30px;
+        min-height: 70px;
+        width: 100%;
+        border-bottom: #e8491d 4px solid;
+    }
+    .active2{
+        color: #e8491d!important;
+    }
+    header .brand{
+        float: left;
+        margin-top: -6px;
+    }
+    .brand h1 span {
+        color: #e8491d;
+    }
+    .brand h1{
+        font-size:30px;
+        font-weight: bold;
+    }
+    .large nav{
+        height: 30px;
+        width:350px;
+        float:right;
+        margin: 0 0 0 80px;
+    }
+    .large nav ul{
+        margin: 0;
+        padding: 0;
+       
+    }
+    .large nav ul li{
+        display: inline;
+        padding: 0 10px 0 10px;
+    }
+    
+    .large nav ul li a{
+        color: #cccccc;
+        text-decoration:none;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .small{
+        display:none;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myCol{
+    flex: 25%;
+}
+.myCol .div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.myCol div img{
+    width: 60%;
+    vertical-align:middle;
+}
+
+@media (max-width:800px){
+    .myCol{
+        flex: 50%;
+    }
+}
+
+@media (max-width:600px){
+    .myCol{
+        flex: 100%;
+    }
+}

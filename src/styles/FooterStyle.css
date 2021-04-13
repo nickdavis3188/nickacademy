@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer .mainy{
+    width: 100%;
+    min-height:300px;
+    background-color:#35424a;
+
+}
+.mainy .yy{
+    border-bottom:  #e8491d  solid;
+}
+.footerRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerRow .footerCol{
+    flex: 25%;
+}
+
+.inn{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inn .colR{
+    flex: 25%;
+
+}
+.footerCol div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.colR div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footerCol div h3,.footerCol div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.footerCol div h3{
+    color: cornsilk;
+}
+
+.colR div span .fb img {
+    background-color:rgb(40, 96, 155);
+    padding: 6px;
+    border-radius: 8px;
+}
+
+@media (max-width:800px){
+    .footerCol{
+        flex: 50%;
+    }
+    .inn .colR{
+        flex: 50%;
+    
+    }
+}
+@media (max-width:600px){
+    .footerCol{
+        flex: 100%;
+    }
+    .inn .colR{
+        flex: 100%;
+    
+    }
+}

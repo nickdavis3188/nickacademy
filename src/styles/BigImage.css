@@ -1,0 +1,16 @@
+.bigImage{
+    height:calc(80vh - 70px);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/codeing22.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+.bigImage h1{
+    text-align: center;
+}
